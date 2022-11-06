@@ -1,0 +1,5 @@
+print('Olá, aqui é o Robby :P')
+print('Diga-me o nome de uma cidade e eu direi se ela começa com SANTO!')
+cidade = str(input('Digite o nome da cidade: ')).strip().upper()
+c = cidade.split()
+print('SANTO' in c[0])
