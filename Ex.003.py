@@ -1,0 +1,6 @@
+print('Olá, sou eu Robby :P')
+print('Que tal somarmos!? Basta me dizer dois números!')
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+print(f'A soma entre {n1} e {n2} é de {n1 + n2}')
+print('Somar é legal né! :P')

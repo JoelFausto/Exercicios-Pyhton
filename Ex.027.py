@@ -1,0 +1,6 @@
+print('Olá, Robby aqui :P')
+print('Me diga seu nome completo para eu dizer seu primeiro e último nome!')
+nome = str(input('Digite seu nome completo: ')).strip()
+div = nome.split()
+print(f'Seu primeiro nome é: {div[0]}')
+print(f'Seu último nome é: {div[len(div)-1]}')

@@ -1,0 +1,8 @@
+print('=' * 38)
+print(' ' * 12, 'ROBBY CARS')
+print('=' * 38)
+dia = float(input('Informe a quantidade de dias alugados: '))
+KM = float(input('Informe a quantidade de KM rodados: '))
+valor = (dia * 60) + (KM * 0.15)
+print('=' * 38)
+print(' ' * 2, f'O total a pagar é de R${valor:.2f}')

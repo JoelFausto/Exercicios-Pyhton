@@ -1,0 +1,6 @@
+print('Oi, aqui é o Robby! :P')
+print('Diga suas notas pra vermos sua média :)\n')
+n1 = float(input('Sua primeira nota: '))
+n2 = float(input('Sua segunda nota: '))
+print(f'A média de {n1} e {n2} é de: {(n1 + n2) / 2}.\n')
+print(f'Sua média foi {(n1 + n2) / 2} :P')

@@ -1,0 +1,6 @@
+print('=' * 30, '\n       ROBBY COOPERATION')
+print('=' * 30)
+print('    AUMENTO SALARIAL DE 15%\n')
+salario: float = float(input('Qual o salário do funcionário: R$'))
+aumento = salario + (salario * 15 / 100)
+print(f'Um funcionário que ganhava R${salario}, com 15% de aumento, passa a receber R${aumento:.2f}.')

@@ -1,0 +1,5 @@
+print('Olá! É o Robby :P')
+print('Me diga o valor de um produto que você comprou e direi quanto ele custaria com 5% de desconto!\n')
+valor = float(input('Qual foi o valor do seu produto? R$'))
+novo = valor - (valor * 5 / 100)
+print(f'O produto que custava R${valor}, com 5% de desconto custaria R${novo:.2f}.')
